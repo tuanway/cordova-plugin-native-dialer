@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="cordova-plugin-native-dialer" version="1.1.0" xmlns="http://apache.org/cordova/ns/plugins" xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>NativeDialer</name>
+
+    <js-module src="www/dialer.js" name="NativeDialer">
+        <clobbers target="NativeDialer" />
+    </js-module>
+
+    <platform name="ios">
+        <source-file src="src/ios/Dialer.m" />
+    </platform>
+
+    <platform name="android">
+        <source-file src="src/android/Dialer.java" target-dir="src/com/example/dialer" />
+    </platform>
+</plugin>
