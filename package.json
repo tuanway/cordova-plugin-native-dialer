@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-native-dialer",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Cordova plugin that opens the native dialer and email composer on iOS and Android.",
   "cordova": {
     "id": "cordova-plugin-native-dialer",
