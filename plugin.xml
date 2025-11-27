@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin id="cordova-plugin-native-dialer" version="1.1.0" xmlns="http://apache.org/cordova/ns/plugins" xmlns:android="http://schemas.android.com/apk/res/android">
     <name>NativeDialer</name>
-
+     <repo>https://github.com/tuanway/cordova-plugin-native-dialer.git</repo>
     <js-module src="www/dialer.js" name="NativeDialer">
         <clobbers target="NativeDialer" />
     </js-module>
